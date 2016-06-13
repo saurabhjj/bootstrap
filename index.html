@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+	<div class="container" id="main">
+
+
+
+    <div class="navbar navbar-fixed-top">
+			<div class="container">
+        <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+        </button>
+				<a class="navbar-brand" href="#"><img src="images/images.png" alt="logo"/> </a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="myDropdown">
+							<a href="#" id="ironStock">Iron </a>
+						</li>
+						<li class="myDropdown">
+							<a href="#" id="bankStock">Bank </a>
+						</li>
+            <li class="myDropdown">
+							<a href="#" id="infoStock">Info Tech </a>
+						</li>
+          </ul> <!-- end nav banner -->
+
+            <ul class="nav navbar-nav pull-right">
+              <li class="dropdown">
+                  <a href="#" class="drop-down-toggle" data-toggle="dropdown" id="myholdingDetails">
+                    <span class="glyphicon glyphicon-briefcase"> My Holdings </span>
+                  </a>
+              </li>
+            </ul><!-- end nav float right div -->
+				</div><!-- end nav collapse div -->
+			</div>
+		</div> <!-- end nav bar div -->
+
+
+
+
+
+
+
+
+    <div  class="alert alert-block fade in" id="myHolding">
+
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <div class="well">
+      <div class="row page-header">
+        <h3 id="holdingDetails"> My Holding .. &nbsp;<small>current holding</small> </h3>
+        <div class="col-sm-2">
+          <h5>Date of Purchase&nbsp;&nbsp;</h5>
+        </div>
+        <div class="col-sm-6">
+          <h5>&nbsp;Equity&nbsp;&nbsp;</h5>
+        </div>
+        <div class="col-sm-2">
+          <h5>&nbsp;Purchase Rate&nbsp;&nbsp;</h5>
+        </div>
+        <div class="col-sm-2">
+          <h5>&nbsp;Current Price&nbsp;&nbsp;</h5>
+        </div>
+      </div>
+      <div class="row rowDetails">
+        <div class="col-sm-2">
+          <h6>&nbsp;6-June-2016&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-6">
+          <h6>&nbsp;Reliance industries&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2">
+          <h6>&nbsp;820.25&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2 ">
+          <h6>&nbsp;924.75&nbsp;&nbsp;</h6>
+        </div>
+      </div>
+      <hr><!-- end of row 1 -->
+      <div class="row rowDetails">
+        <div class="col-sm-2 ">
+          <h6>&nbsp;6-June-2016&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-6 ">
+          <h6>&nbsp;Reliance industries&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2 ">
+          <h6>&nbsp;820.25&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2 ">
+          <h6>&nbsp;924.75&nbsp;&nbsp;</h6>
+        </div>
+      </div>
+      <hr><!-- end of row 2 -->
+      <div class="row rowDetails">
+        <div class="col-sm-2 ">
+          <h6>&nbsp;6-June-2016&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-6 ">
+          <h6>&nbsp;Reliance industries&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2 ">
+          <h6>&nbsp;820.25&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2 ">
+          <h6>&nbsp;924.75&nbsp;&nbsp;</h6>
+        </div>
+      </div>
+      <hr><!-- end of row 3 -->
+      <div class="row rowDetails">
+        <div class="col-sm-2 ">
+          <h6>&nbsp;6-June-2016&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-6 ">
+          <h6>&nbsp;Reliance industries&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2 ">
+          <h6>&nbsp;820.25&nbsp;&nbsp;</h6>
+        </div>
+        <div class="col-sm-2 ">
+          <h6>&nbsp;924.75&nbsp;&nbsp;</h6>
+        </div>
+      </div>
+      <hr>
+      <!-- end of row 4 -->
+    </div>
+    </div>
+
+    <div class="alert alert-block fade in tabbable details" id="ironDetails">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#tab1" data-toggle="tab">Tata Steel</a> </li>
+				<li><a href="#tab2" data-toggle="tab">L &amp; T</a> </li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="tab1">
+					<h3 class="panel-tittle">Tata Steel<small class="subHeader"> TISCO</small> </h3>
+          <div class="col-3">
+            <img src="images/tataSteel.png">
+          </div>
+
+          <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.</p>
+
+            <div class="pull-right">
+              <ul>
+                <li class="dropdown myDropdown">
+                  <a class="drop-down-toggle" data-toggle="dropdown" href="#">Reports <strong class="caret" ></strong> </a>
+                  <ul class="dropdown-menu report">
+                      <li><a href="#">Yearly </a></li>
+                      <li><a href="#">Monthly </a></li>
+                      <li><a href="#">Weekly </a></li>
+                      <li><a href="#">Daily </a></li>
+                  </ul> <!-- end drop down -->
+                </li>
+              </ul>
+            </div>
+
+          </div>
+				</div><!-- end of tab-pane div -->
+				<div class="tab-pane" id="tab2">
+					<h3 class="panel-tittle">Larsen &amp; Turbo <small class="subHeader"> L &amp; T</small> </h3>
+          <div class="col-3">
+            <img class="img-circle" src="images/lnt.png">
+          </div>
+
+          <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.</p>
+
+            <div class="pull-right">
+              <ul>
+                <li class="dropdown myDropdown">
+                  <a class="drop-down-toggle" data-toggle="dropdown" href="#" >Reports <strong class="caret" ></strong> </a>
+                  <ul class="dropdown-menu report">
+                      <li><a href="#">Yearly </a></li>
+                      <li><a href="#">Monthly </a></li>
+                      <li><a href="#">Weekly </a></li>
+                      <li><a href="#">Daily </a></li>
+                  </ul> <!-- end drop down -->
+                </li>
+              </ul>
+            </div>
+          </div>
+				</div><!-- end of tab-pane div -->
+			</div><!-- end of tab Content div -->
+		</div><!-- end of tabbable div -->
+
+    <div class="alert alert-block fade in tabbable details" id="bankDetails">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab3" data-toggle="tab">ICICI Bank</a> </li>
+        <li><a href="#tab4" data-toggle="tab">Axis Bank</a> </li>
+        <li><a href="#tab5" data-toggle="tab">Yes Bank</a> </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab3">
+        	<h3 class="panel-tittle">ICICI Bank</h3>
+          <div class="col-3">
+            <img class="img-circle" src="images/icici.jpeg">
+          </div>
+
+          <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.</p>
+
+            <div class="pull-right">
+              <ul>
+                <li class="dropdown myDropdown">
+                  <a class="drop-down-toggle" data-toggle="dropdown" href="#">Reports <strong class="caret" ></strong> </a>
+                  <ul class="dropdown-menu report">
+                      <li><a href="#">Yearly </a></li>
+                      <li><a href="#">Monthly </a></li>
+                      <li><a href="#">Weekly </a></li>
+                      <li><a href="#">Daily </a></li>
+                  </ul> <!-- end drop down -->
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- end of tab-pane div -->
+        <div class="tab-pane" id="tab4">
+          <h3 class="panel-tittle">Axis Bank </h3>
+          <div class="col-3">
+            <img src="images/axisBank.jpg">
+          </div>
+
+          <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.</p>
+
+            <div class="pull-right">
+              <ul>
+                <li class="dropdown myDropdown">
+                  <a class="drop-down-toggle" data-toggle="dropdown" href="#">Reports <strong class="caret" ></strong> </a>
+                  <ul class="dropdown-menu report">
+                      <li><a href="#">Yearly </a></li>
+                      <li><a href="#">Monthly </a></li>
+                      <li><a href="#">Weekly </a></li>
+                      <li><a href="#">Daily </a></li>
+                  </ul> <!-- end drop down -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- end of tab-pane div -->
+      <div class="tab-pane" id="tab5">
+        <h3 class="panel-tittle">Yes Bank <small class="subHeader"> "India bole Yes"</small> </h3>
+        <div class="col-3">
+          <img src="images/yesBank.png">
+        </div>
+
+        <div class="col-9">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+          Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+          augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+          velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+          Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+          Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+          augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+          velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+          Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+          Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+          augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+          velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+          Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+          Lorem ipsum dolor sit amet.</p>
+
+          <div class="pull-right">
+            <ul>
+              <li class="dropdown myDropdown">
+                <a class="drop-down-toggle" data-toggle="dropdown" href="#">Reports <strong class="caret" ></strong> </a>
+                <ul class="dropdown-menu report">
+                    <li><a href="#">Yearly </a></li>
+                    <li><a href="#">Monthly </a></li>
+                    <li><a href="#">Weekly </a></li>
+                    <li><a href="#">Daily </a></li>
+                </ul> <!-- end drop down -->
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div><!-- end of tab-pane div -->
+    </div><!-- end of tab Content div -->
+  </div><!-- end of tabbable div -->
+
+    <div class="alert alert-block fade in tabbable details" id="infoDetails">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab6" data-toggle="tab">Wipro</a> </li>
+        <li><a href="#tab7" data-toggle="tab">TCS</a> </li>
+        <li><a href="#tab8" data-toggle="tab">Infosys</a> </li>
+        <li><a href="#tab9" data-toggle="tab">CTS</a> </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab6">
+          <h3 class="panel-tittle">Wipro</h3>
+          <div class="col-3">
+            <img class="img-circle" src="images/wipro.jpeg">
+          </div>
+
+          <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.</p>
+
+            <div class="pull-right">
+              <ul>
+                <li class="dropdown myDropdown">
+                  <a class="drop-down-toggle" data-toggle="dropdown" href="#">Reports <strong class="caret" ></strong> </a>
+                  <ul class="dropdown-menu report">
+                      <li><a href="#">Yearly </a></li>
+                      <li><a href="#">Monthly </a></li>
+                      <li><a href="#">Weekly </a></li>
+                      <li><a href="#">Daily </a></li>
+                  </ul> <!-- end drop down -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- end of tab-pane div -->
+        <div class="tab-pane" id="tab7">
+          	<h3 class="panel-tittle">Tata Consultancy Services<small class="subHeader"> TCS </small> </h3>
+            <div class="col-3">
+              <img src="images/tcs.png">
+            </div>
+
+            <div class="col-9">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+              Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+              augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+              velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+              Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+              Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+              augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+              velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+              Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+              Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+              augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+              velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+              Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+              Lorem ipsum dolor sit amet.</p>
+
+              <div class="pull-right">
+                <ul>
+                  <li class="dropdown myDropdown">
+                    <a class="drop-down-toggle" data-toggle="dropdown" href="#">Reports <strong class="caret" ></strong> </a>
+                    <ul class="dropdown-menu report">
+                        <li><a href="#">Yearly </a></li>
+                        <li><a href="#">Monthly </a></li>
+                        <li><a href="#">Weekly </a></li>
+                        <li><a href="#">Daily </a></li>
+                    </ul> <!-- end drop down -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div><!-- end of tab-pane div -->
+        <div class="tab-pane" id="tab8">
+          <h3 class="panel-tittle">Infosys</h3>
+          <div class="col-3">
+            <img src="images/infy.png">
+          </div>
+
+          <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.</p>
+
+            <div class="pull-right">
+              <ul>
+                <li class="dropdown myDropdown">
+                  <a class="drop-down-toggle" data-toggle="dropdown" href="#" >Reports <strong class="caret" ></strong> </a>
+                  <ul class="dropdown-menu report">
+                      <li><a href="#">Yearly </a></li>
+                      <li><a href="#">Monthly </a></li>
+                      <li><a href="#">Weekly </a></li>
+                      <li><a href="#">Daily </a></li>
+                  </ul> <!-- end drop down -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- end of tab-pane div -->
+        <div class="tab-pane" id="tab9">
+        	<h3 class="panel-tittle">Cognizant Technologies<small class="subHeader"> CTS</small> </h3>
+          <div class="col-3">
+            <img src="images/cts.png">
+          </div>
+
+          <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta ultrices elit eu molestie.
+            Nulla vulputate, orci id euismod elementum, ligula libero aliquet arcu, eu luctus dolor sem ut
+            augue. Pellentesque ullamcorper et urna ut suscipit. Nunc vel pretium eros. Sed id ultrices
+            velit, eget pellentesque massa. Suspendisse potenti. In at magna tempus arcu imperdiet venenatis.
+            Integer varius in elit et finibus. Fusce imperdiet, tortor sed varius pellentesque, massa arcu
+            Lorem ipsum dolor sit amet.</p>
+
+            <div class="pull-right">
+              <ul>
+                <li class="dropdown myDropdown">
+                  <a class="drop-down-toggle" data-toggle="dropdown" href="#">Reports <strong class="caret" ></strong> </a>
+                  <ul class="dropdown-menu report">
+                      <li><a href="#">Yearly </a></li>
+                      <li><a href="#">Monthly </a></li>
+                      <li><a href="#">Weekly </a></li>
+                      <li><a href="#">Daily </a></li>
+                  </ul> <!-- end drop down -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- end of tab-pane div -->
+      </div><!-- end of tab Content div -->
+    </div><!-- end of tabbable div -->
+
+    <div class="carousel slide" id="myCarousel">
+			<!-- indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+        <li data-slide-to="3" data-target="#myCarousel"></li>
+			</ol>
+			<!-- wrapper for slides -->
+			<div class="carousel-inner" >
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<!--	<h4>Bootstrap 3</h4>
+							<p> Learn how to build your first responsive website with bootstrap 3 </p>
+					--></div><!-- end of carousel caption -->
+				</div><!-- end of carousel item -->
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+							<h4>Stocks are booming</h4>
+						<!--	<p>Psd to html Psd to html Psd to html Psd to html Psd to html Psd to html </p> -->
+					</div><!-- end of carousel caption -->
+				</div><!-- end of carousel item -->
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<!--	<h4>Website hosting 101</h4>
+							<p>learn to code your web </p>-->
+					</div><!-- end of carousel caption -->
+				</div><!-- end of carousel item -->
+        <div class="item" id="slide4">
+					<div class="carousel-caption">
+            <!--	<h4>Website hosting 101</h4>
+              <p>learn to code your web </p>-->
+					</div><!-- end of carousel caption -->
+				</div><!-- end of carousel item -->
+
+			</div><!-- end of carousel inner -->
+			<!-- carousel controls -->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div><!-- end of carousel div -->
+
+  </div>
+
+  <footer>
+		<div class="container" >
+			<div class="row" >
+				<div class="col-sm-2" >
+					<h6>copy &copy; 2013 </h6>
+				</div>
+				<div class="col-sm-4" >
+					<h6>About</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+				</div>
+				<div class="col-sm-2" >
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2" >
+					<h6>Follow us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Google Plus</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2" >
+					<h6><span class=class="glyphicon glyphicon-heart">by Saurabh</span></h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
